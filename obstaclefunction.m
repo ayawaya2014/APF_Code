@@ -8,12 +8,9 @@ function J = obstaclefunction(x,w1,obstacles)
 % Modified: 2010-1-5, 2014-11-12, 2018-3-5
 % Shanghai, China 
 
-%sigma = 1.5; % 参数σ
-sigma = 1.5;
+sigma = 1.5; % 参数σ
 %r = 2.25; % 障碍物折合半径为1.5
 
-%obstacles
-%x m=2 n=20
 [m,n] = size(obstacles);
 dist = x*ones(1,n)-obstacles; % 2*1与1*n矩阵相乘，相当于等值扩展了
 dist = sum(dist.^2); % 把列平方相加
