@@ -2,9 +2,9 @@
 
 MATLAB Code of Artificial Potencial Field Method for Robot Path Planning
 
-Authors: Xin Li, Daqi Zhu
+Authors: Xin Li
 
-Email: lixin850224@163.com; zdq367@aliyun.com
+Email: lixin850224@163.com
 
 Laboratory of Underwater Vehicles and Intelligent Systems
 
